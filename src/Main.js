@@ -1,9 +1,11 @@
 import "./main.css";
-import 'font-awesome/css/font-awesome.min.css';
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faStar } from '@fortawesome/free-solid-svg-icons';
+
 function Main() {
   return (
     <div className="main-div">
-      {/* left part design */}
       <div className="left-part">
         <div className="link1">
           <img src="https://e7.pngegg.com/pngimages/513/1015/png-clipart-computer-icons-avatar-user-profile-business-coat-and-tie-logo-monochrome.png"></img>
@@ -99,47 +101,48 @@ function Main() {
                 <td>Writing
                 </td>
                 <td className='star'>
-                <i className="fa fa-star"></i>
-                <i className="fa fa-star"></i>
-                <i className="fa fa-star"></i>
-                <i className="fa fa-star"></i>
-                <i className="fa fa-star"></i>
+                <FontAwesomeIcon className="FontAwesomeIcon" icon={faStar} />
+                <FontAwesomeIcon className="FontAwesomeIcon" icon={faStar} />
+                <FontAwesomeIcon className="FontAwesomeIcon" icon={faStar} />
+                <FontAwesomeIcon className="FontAwesomeIcon" icon={faStar} />
                  
                 </td>
               </tr>
               <tr>
                 <td>Edinting</td>
                 <td className='star'>
-                <i className="fa fa-star"></i>
-                <i className="fa fa-star"></i>
-                <i className="fa fa-star"></i>
-                <i className="fa fa-star"></i>
+                <FontAwesomeIcon className="FontAwesomeIcon" icon={faStar} />
+                <FontAwesomeIcon className="FontAwesomeIcon" icon={faStar} />
+                <FontAwesomeIcon className="FontAwesomeIcon" icon={faStar} />
+                <FontAwesomeIcon className="FontAwesomeIcon" icon={faStar} />
+                <FontAwesomeIcon className="FontAwesomeIcon" icon={faStar} />
                 </td>
               </tr>
               <tr>
                 <td>Lisening</td>
                 <td className='star'>
-                <i className="fa fa-star"></i>
-                  <i className="fa fa-star"></i>
-                  <i className="fa fa-star"></i>
+                <FontAwesomeIcon className="FontAwesomeIcon" icon={faStar} />
+                <FontAwesomeIcon className="FontAwesomeIcon" icon={faStar} />
+                <FontAwesomeIcon className="FontAwesomeIcon" icon={faStar} />
+                <FontAwesomeIcon className="FontAwesomeIcon" icon={faStar} />
                 </td>
               </tr>
               <tr>
                 <td>Speeking</td>
                 <td  className='star'>
-                <i className="fa fa-star"></i>
-                <i className="fa fa-star"></i>
-                <i className="fa fa-star"></i>
+                <FontAwesomeIcon className="FontAwesomeIcon" icon={faStar} />
+                <FontAwesomeIcon className="FontAwesomeIcon" icon={faStar} />
+                <FontAwesomeIcon className="FontAwesomeIcon" icon={faStar} />
                 </td>
               </tr>
               <tr>
                 <td>Social Media</td>
                 <td className='star'>
-                <i className="fa fa-star"></i>
-                <i className="fa fa-star"></i>
-                <i className="fa fa-star"></i>
-                <i className="fa fa-star"></i>
-                <i className="fa fa-star"></i>
+                <FontAwesomeIcon className="FontAwesomeIcon" icon={faStar} />
+                <FontAwesomeIcon className="FontAwesomeIcon" icon={faStar} />
+                <FontAwesomeIcon className="FontAwesomeIcon" icon={faStar} />
+                <FontAwesomeIcon className="FontAwesomeIcon" icon={faStar} />
+                <FontAwesomeIcon className="FontAwesomeIcon" icon={faStar} />
                 </td>
               </tr>
             </table>
